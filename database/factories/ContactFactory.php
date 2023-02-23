@@ -17,7 +17,6 @@ class ContactFactory extends Factory
     public function definition()
     {
         return [
-            'phone' => fake()->phoneNumber(),
             'phone2'=>fake()->phoneNumber(),
             'address'=>fake()->address(),
             'email'=>fake()->email(),
